@@ -1,0 +1,22 @@
+/***********Font Setup For Page***********/
+
+nav {
+    font-family: orbitron, serif, sans-serif;
+}
+
+h1 {
+    font-family: bangers, serif, sans-serif;
+}
+
+h2, h3 {
+    font-family: orbitron, serif, sans-serif;
+}
+/**********End of Font Setup**********/
+
+/**********Page Layout Layout*********/
+/*Start Navigation Layout*/
+nav ul li {
+    display: inline-block;
+}
+/*End Navigation Layout*/
+/**********End of Page Layout********/
