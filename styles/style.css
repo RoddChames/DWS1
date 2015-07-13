@@ -1,22 +1,9 @@
-/***********Font Setup For Page***********/
-
-nav {
-    font-family: orbitron, serif, sans-serif;
+body {
+    background-color:#000;
 }
-
-h1 {
-    font-family: bangers, serif, sans-serif;
+h1, h2, h3, h4 {
+    color:#0ccf0e
 }
-
-h2, h3 {
-    font-family: orbitron, serif, sans-serif;
+p, ol li, figcaption {
+    color:#1AC0DE;
 }
-/**********End of Font Setup**********/
-
-/**********Page Layout Layout*********/
-/*Start Navigation Layout*/
-nav ul li {
-    display: inline-block;
-}
-/*End Navigation Layout*/
-/**********End of Page Layout********/
