@@ -1,14 +1,28 @@
-
-/***********navigation***********/
-nav ul li {
-    
-    display:inline-block;
-    margin-right: 20px;
-    font-size: 40px;
+/***********main styling***********/
+h1 {
     font-family: bangers, sans-serif, serif;
+    color:#0ccf0e;
+    letter-spacing: 3px;
+    font-size:40px;
+    text-shadow: 2px 2px #ddd;
 }
-/***********end of navigation***********/
-/***********links***********/
+h2, h3, h4 {
+    color:#0ccf0e;
+    font-family: orbitron, sans-serif, serif;
+    letter-spacing: 1px;
+}
+ol li, figcaption {
+    color:#1AC0DE;
+    font-family:"Didact Gothic", sans-serif, serif;
+    list-style-type: upper-roman;
+}
+p {
+	font-family:"Didact Gothic", sans-serif, serif;
+    line-height:25px;
+    color:#1AC0DE;
+    letter-spacing:1px;
+    text-indent: 30px;
+}
 a:link {
     color:#de6600; 
 }
@@ -21,29 +35,18 @@ a:hover {
 a:active{
     color:#f00;
 }
-/***********end of links***********/
-/***********font/word styling***********/
-h1 {
-    font-family: bangers, sans-serif, serif;
-    color:#0ccf0e;
-    letter-spacing: 3px;
-}
-h2, h3, h4 {
-    color:#0ccf0e;
-    font-family: orbitron, sans-serif, serif;
-    letter-spacing: 1px;
-}
-ol li, figcaption {
-    color:#1AC0DE;
-    font-family:"Didact Gothic", sans-serif, serif;
-}
-p {
-	font-family:"Didact Gothic", sans-serif, serif;
-    line-height:20px;
-    color:#1AC0DE;
-}
 
-/***********end of font/word styling***********/
+/***********end of main styling***********/
+/***********navigation***********/
+nav ul li {
+    
+    display:inline-block;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: bangers, sans-serif, serif;
+}
+/***********end of navigation***********/
+
 /***********page layout***********/
 body {
     background-color:#090086;
@@ -53,6 +56,22 @@ body {
     background-color:#000;
     margin:0px auto;
     padding:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px #bbb;
+}
+.storeimages {
+    border-style: groove;
+    border-color: rgba(222,102,0,.9);
+    border-width: 8px;
+    display:inline-block;
+    border-width: auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.storeimages:hover {
+    border-color: #ff0;
+    
 }
 
 
