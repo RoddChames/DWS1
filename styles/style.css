@@ -23,6 +23,13 @@ p {
     letter-spacing:1px;
     text-indent: 30px;
 }
+footer ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+footer ul {
+    margin: 0 auto;
+}
 a:link {
     color:#de6600; 
 }
@@ -39,7 +46,6 @@ a:active{
 /***********end of main styling***********/
 /***********navigation***********/
 nav ul li {
-    
     display:inline-block;
     margin-right: 20px;
     font-size: 30px;
@@ -73,7 +79,6 @@ body {
     border-color: #ff0;
     
 }
-
 
 
 /***********end of page layout***********/
