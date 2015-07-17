@@ -1,81 +1,88 @@
 /***********main styling***********/
 h1 {
-    font-family: bangers, sans-serif, serif;
+    font-family:bangers,sans-serif,serif;
     color:#0ccf0e;
-    letter-spacing: 3px;
+    letter-spacing:3px;
     font-size:40px;
-    text-shadow: 2px 2px #ddd;
+    text-shadow:2px 2px #ddd
 }
-h2, h3, h4 {
+
+h2,h3,h4 {
     color:#0ccf0e;
-    font-family: orbitron, sans-serif, serif;
-    letter-spacing: 1px;
+    font-family:orbitron,sans-serif,serif;
+    letter-spacing:1px
 }
-ol li, figcaption {
+
+ol li,figcaption {
     color:#1AC0DE;
-    font-family:"Didact Gothic", sans-serif, serif;
-    list-style-type: upper-roman;
+    font-family:"Didact Gothic",sans-serif,serif;
+    list-style-type:upper-roman
 }
+
 p {
-	font-family:"Didact Gothic", sans-serif, serif;
+    font-family:"Didact Gothic",sans-serif,serif;
     line-height:25px;
     color:#1AC0DE;
     letter-spacing:1px;
-    text-indent: 30px;
+    text-indent:30px
 }
+
 footer ul li {
-    display: inline-block;
-    margin: 0px 30px;
+    display:inline-block;
+    margin:0 30px
 }
 
 a:link {
-    color:#de6600; 
+    color:#de6600
 }
+
 a:visited {
-    color:rgba(255,255,255,1);
+    color:rgba(255,255,255,1)
 }
+
 a:hover {
-    color:#ff0;
+    color:#ff0
 }
-a:active{
-    color:#f00;
+
+a:active {
+    color:red
 }
 
 /***********end of main styling***********/
 /***********navigation***********/
 nav ul li {
     display:inline-block;
-    margin-right: 20px;
-    font-size: 30px;
-    font-family: bangers, sans-serif, serif;
+    margin-right:20px;
+    font-size:30px;
+    font-family:bangers,sans-serif,serif
 }
-/***********end of navigation***********/
 
+/***********end of navigation***********/
 /***********page layout***********/
 body {
-    background-color:#090086;
+    background-color:#090086
 }
+
 #content {
     width:960px;
     background-color:rgba(0,0,0,.6);
-    margin:0px auto;
+    margin:0 auto;
     padding:10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 100px #bbb;
+    border-radius:10px;
+    box-shadow:0 0 100px #bbb
 }
+
 .storeimages {
-    border-style: groove;
-    border-color: rgba(222,102,0,.9);
-    border-width: 8px;
+    border-style:groove;
+    border-color:rgba(222,102,0,.9);
+    border-width:8px;
     display:inline-block;
-    border-radius: 30px;
-    overflow: hidden;
+    border-radius:30px;
+    overflow:hidden
 }
 
 .storeimages:hover {
-    border-color: #ff0;
-    
+    border-color:#ff0
 }
-
 
 /***********end of page layout***********/
