@@ -2,9 +2,10 @@
 h1 {
     font-family:bangers,sans-serif,serif;
     color:#0ccf0e;
-    letter-spacing:3px;
-    font-size:40px;
-    text-shadow:2px 2px #ddd
+    letter-spacing:.031%;
+    font-size:3.750em;
+    text-shadow:2px 2px #ddd;
+    margin-left:5.20%;
 }
 
 h2,h3,h4 {
@@ -21,15 +22,21 @@ ol li,figcaption {
 
 p {
     font-family:"Didact Gothic",sans-serif,serif;
-    line-height:25px;
+    line-height:35px;
     color:#1AC0DE;
-    letter-spacing:1px;
+    letter-spacing:.104;
     text-indent:30px
 }
 
 footer ul li {
     display:inline-block;
-    margin:0 30px
+    margin:0 3.125%px;
+}
+
+strong {
+    font-weight: 800;
+    font-family:serif;
+    color:#fff;
 }
 
 a:link {
@@ -50,11 +57,16 @@ a:active {
 
 /***********end of main styling***********/
 /***********navigation***********/
+
+nav{
+    text-align: center;
+}
+
 nav ul li {
     display:inline-block;
-    margin-right:20px;
-    font-size:30px;
-    font-family:bangers,sans-serif,serif
+    margin-right:5.20%;
+    font-size:1.875em;
+    font-family:bangers,sans-serif,serif;
 }
 
 /***********end of navigation***********/
@@ -63,19 +75,75 @@ body {
     background-color:#090086
 }
 
-#content {
-    width:960px;
+#wrapper {
+    width:75%;
     background-color:rgba(0,0,0,.6);
     margin:0 auto;
     padding:10px;
     border-radius:10px;
-    box-shadow:0 0 100px #bbb
+    box-shadow:0 0 100px #bbb;
+    overflow:auto;
 }
 
+#about {
+	width:28.64%;
+	border-width:3px;
+	margin:1.041% 1.041% 1.041% 3.125%;
+	padding:10px;
+	border-color:#0ccf0e;
+	float:left;
+	border-style:solid;
+	overflow:auto;
+}
+
+#safety {
+	width:28.64%;
+	border-width:3px;
+	margin:1.04%;
+	padding:10px;
+	border-color:#0ccf0e;
+	float:left;
+	border-style:solid;
+	overflow:auto;
+}
+
+#four, #five {
+	width:25%;
+	border-width:3px;
+	margin:1.041%;
+	padding:10px;
+	border-color:#0ccf0e;
+	float:left;
+	border-style:solid;
+	overflow:auto;
+}
+
+#three {
+	width:93.75%;
+	border-width:3px;
+	margin:2.08%;
+	border-color:#0ccf0e;
+	float:left;
+	border-style:solid;
+	overflow:auto;
+	clear:left;
+}
+
+#three figure {
+	float:left;
+	margin:0.52%;
+}
+
+
+#three, figcaption {
+    text-align: center;
+}
+
+
 .storeimages {
-    border-style:groove;
+    border-style:solid;
     border-color:rgba(222,102,0,.9);
-    border-width:8px;
+    border-width:.416%;
     display:inline-block;
     border-radius:30px;
     overflow:hidden
@@ -84,5 +152,17 @@ body {
 .storeimages:hover {
     border-color:#ff0
 }
+
+
+
+footer {
+    clear:left;
+}
+
+footer ul {
+    text-align: center;
+}
+
+
 
 /***********end of page layout***********/
