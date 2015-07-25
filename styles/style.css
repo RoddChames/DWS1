@@ -11,7 +11,7 @@ h1 {
 h2,h3,h4 {
     color:#0ccf0e;
     font-family:orbitron,sans-serif,serif;
-    letter-spacing:1px
+    letter-spacing:.104%;
 }
 
 ol li,figcaption {
@@ -24,13 +24,13 @@ p {
     font-family:"Didact Gothic",sans-serif,serif;
     line-height:35px;
     color:#1AC0DE;
-    letter-spacing:.104;
+    letter-spacing:.104%;
     text-indent:30px
 }
 
 footer ul li {
     display:inline-block;
-    margin:0 3.125%px;
+    margin:0% 3.125%;
 }
 
 strong {
@@ -78,7 +78,7 @@ body {
 #wrapper {
     width:75%;
     background-color:rgba(0,0,0,.6);
-    margin:0 auto;
+    margin:0% auto;
     padding:10px;
     border-radius:10px;
     box-shadow:0 0 100px #bbb;
@@ -127,6 +127,7 @@ body {
 	border-style:solid;
 	overflow:auto;
 	clear:left;
+	background-image: url(../images/renzler.gif);
 }
 
 #three figure {
