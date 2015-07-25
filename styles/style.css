@@ -22,10 +22,10 @@ ol li,figcaption {
 
 p {
     font-family:"Didact Gothic",sans-serif,serif;
-    line-height:35px;
+    line-height:2.188em;
     color:#1AC0DE;
     letter-spacing:.104%;
-    text-indent:30px
+    text-indent:1.875%;
 }
 
 footer ul li {
@@ -60,6 +60,7 @@ a:active {
 
 nav{
     text-align: center;
+    margin:7.125%;
 }
 
 nav ul li {
@@ -72,7 +73,8 @@ nav ul li {
 /***********end of navigation***********/
 /***********page layout***********/
 body {
-    background-color:#090086
+    background-color:#090086;
+    background-image: url(../images/renzler.gif);
 }
 
 #wrapper {
@@ -87,9 +89,9 @@ body {
 
 #about {
 	width:28.64%;
-	border-width:3px;
+	border-width:.3125%;
 	margin:1.041% 1.041% 1.041% 3.125%;
-	padding:10px;
+	padding:1.041%;
 	border-color:#0ccf0e;
 	float:left;
 	border-style:solid;
@@ -98,9 +100,9 @@ body {
 
 #safety {
 	width:28.64%;
-	border-width:3px;
+	border-width:.3125%;
 	margin:1.04%;
-	padding:10px;
+	padding:1.041%;
 	border-color:#0ccf0e;
 	float:left;
 	border-style:solid;
@@ -111,23 +113,23 @@ body {
 	width:25%;
 	border-width:3px;
 	margin:1.041%;
-	padding:10px;
+	padding:1.041%;
 	border-color:#0ccf0e;
 	float:left;
 	border-style:solid;
 	overflow:auto;
+    background-color:rgba(2);
 }
 
 #three {
 	width:93.75%;
-	border-width:3px;
+	border-width:.3125%;
 	margin:2.08%;
 	border-color:#0ccf0e;
 	float:left;
 	border-style:solid;
 	overflow:auto;
 	clear:left;
-	background-image: url(../images/renzler.gif);
 }
 
 #three figure {
