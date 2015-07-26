@@ -121,7 +121,6 @@ body {
     border-color:#0ccf0e;
 	border-style:solid;*/
 	overflow:auto;
-    background-color:rgba(2);
 }
 
 #three {
@@ -151,7 +150,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63888888', e
 #three, figcaption {
     text-align: center;
 }
-
 
 .storeimages {
     border-style:solid;
