@@ -78,6 +78,7 @@ nav ul li {
 body {
     background-color:#090086;
     background-image: url(../images/renzler.gif);
+    width:90%;
 }
 
 #wrapper {
