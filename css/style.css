@@ -57,11 +57,65 @@ a:hover {
 a:active {
     color:red
 }
+/***********end of main styling***********/
+/*********** form styling **********/
 
 form {
-	color:#f00;
+	float:left;
+	color:#1ac0de;	
+	font-family:"Didact Gothic", sans-serif, serif;
 }
-/***********end of main styling***********/
+
+legend {
+	font-size:1.5em;
+	color:#0ccf0e;
+}
+
+label {
+	display:inline;
+	margin-bottom:10px;
+	float:left;
+}
+
+input, textarea {
+	display:block;
+	border-radius:10px;
+	padding-left:5px;
+	border: 3px solid #0ccf0e;
+	clear:left;
+}
+
+label input:hover {
+	border: 3px solid #f00;
+	box-shadow:none;
+}
+
+ input:focus {
+	border: 3px solid #f00;
+	box-shadow:none;
+	background-color:#ccc;
+}
+
+textarea:hover {
+	border: 3px solid #f00;
+	box-shadow:none;
+}
+
+textarea:focus {
+	border: 3px solid #f00;
+	box-shadow:none;
+	background-color:#ccc;
+}
+
+.formshadow {
+	box-shadow: 2px 2px 10px #aaa;
+}
+
+.sinput {
+	display:inline;
+}
+/*********** end of form styling **********/
+
 /********* Table Styling *********/
 table {
 	width:40%;
@@ -118,7 +172,7 @@ body {
 }
 
 #about {
-	width:28.64%;
+	width:25.64%;
 	margin:1.041% 1.041% 1.041% 3.125%;
 	padding:1.041%;
 	float:left;
@@ -129,7 +183,7 @@ body {
 }
 
 #safety {
-	width:28.64%;
+	width:25.64%;
 	margin:1.04%;
 	padding:1.041%;
 	float:left;
@@ -139,7 +193,16 @@ body {
 	overflow:auto;
 }
 
-#four, #five {
+#col3 {
+	width:350px;
+	border: 1px solid #0ccf0e;
+	float:left;
+	margin-top:35px;
+	padding:5px 0px 5px 10px;
+	border-radius:2%
+}
+
+/* #four, #five {
 	width:25%;
 	margin:1.041%;
 	padding:1.041%;
@@ -148,7 +211,7 @@ body {
     border-color:#0ccf0e;
 	border-style:solid;*/
 	overflow:auto;
-}
+}*/
 
 #three {
 	width:93.75%;

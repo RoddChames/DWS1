@@ -75,6 +75,7 @@
             ride.</p>
          </div>
          
+         <div id="col3">
          <div id="four">
             <h2>Membership</h2>
 
@@ -104,11 +105,29 @@
         
         <div>
         	<form action="http://www.example.com/subscribe.php" method="get">
-				<label>Name:<input type="text" input="name" size="30" maxlength="15"></label>
-				<br>
-				<br>
-				<label>Password:<input type="password" input="password" size="30" maxlength="15"></label>
+        		<fieldset>
+        			<legend>Rider Survey</legend>
+    
+						<p>What type of motorcycle do you ride?<select name="motorcycle">
+						<option value="sports bike">Sports Bike</option>
+						<option value="cruiser">Cruiser</option>
+						<option value="both">Both</option>  </p> 
+                    
+        				<p>How did you hear about us?
+							</br>
+							<label><input class="sinput" type="radio" name="promoter" value="Facebook" checked="checked" /> Facebook</label>
+							<label><input class="sinput" type="radio" name="promoter" value="Google" /> Google</label>
+							<label><input class="sinput" type="radio" name="promoter" value="Meetup" /> Meetup</label>
+						</p>
+            
+						<label>Name:<input type="text" input="name" placeholder="John Coffee" size="30" maxlength="15" class="formshadow"></label>
+					
+						<label>Email:<input type="email" input="email" placeholder="John.Coffee@GMAIL.COM" size="30" maxlength="15" class="formshadow"></label>
+					
+						<label>Comments:<textarea name="comments" placeholder="Comment Here. "cols="30" rows="5" class="formshadow"></textarea></label>
+				</fieldset>	
         	</form>
+        </div>
         </div>
         
         <div>
